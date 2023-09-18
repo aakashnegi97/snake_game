@@ -1,0 +1,2 @@
+export const SET_HIGH_SCORE = "SET_HIGH_SCORE";
+export const SET_CURRENT_SCORE = "SET_CURRENT_SCORE";

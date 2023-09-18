@@ -1,0 +1,75 @@
+
+body {
+  margin: 0;
+}
+
+p {
+  font-family: cursive;
+  color: #fff
+}
+
+button {
+  background-color: #088395;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+  font-family: cursive;
+  padding: 0.8rem 1.3rem;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+/* Home Screen */
+.home-screen {
+  background-color: #071952;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.high-score {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+/* Playground */
+.playground-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.playground-header {
+  background-color: #071952;
+  height: 3rem;
+  max-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.playground-arena {
+  flex: auto;
+  background-color: #35A29F;
+  position: relative;
+}
+
+.snake-head{
+  background-color: #F4E869;
+  padding: 5px;
+}
+.snake-head:first-child{
+  border-radius: 20px;
+}
+.snake-head:last-child{
+  border-radius: 20px;
+}
